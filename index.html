@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limburg Technology Limited - Professional V16 Beacon Manufacturer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+            background: rgba(0, 20, 50, 0.8);
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .logo-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            max-width: 280px;
+        }
+        
+        .logo-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .logo-card img {
+            max-width: 100%;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+        
+        .logo-card h3 {
+            color: #1e3c72;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .content-section {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .languages {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .language-card {
+            flex: 1;
+            min-width: 300px;
+            padding: 25px;
+            border-radius: 10px;
+            background: #f8f9fa;
+            border: 1px solid #eaeaea;
+        }
+        
+        .language-card h2 {
+            color: #1e3c72;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .cta-section {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #ff8c00 0%, #ff6600 100%);
+            border-radius: 15px;
+            color: white;
+            margin: 40px 0;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #ff6600;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-top: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3);
+            background: #1e3c72;
+            color: white;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+        
+        .feature-card {
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            background: #eef5ff;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #1e3c72;
+            margin-bottom: 15px;
+        }
+        
+        .feature-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: #1e3c72;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: white;
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+        
+        .footer-links {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .languages {
+                flex-direction: column;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Limburg Technology Limited</h1>
+            <p>Professional Connected V16 Beacon Manufacturer</p>
+        </header>
+        
+        <section class="logo-container">
+            <div class="logo-card">
+                <div class="feature-icon">
+                    <i class="fas fa-industry"></i>
+                </div>
+                <h3>Limburg Technology Limited</h3>
+                <p>Professional beacon manufacturer in China</p>
+            </div>
+            
+            <div class="logo-card">
+                <div class="feature-icon">
+                    <i class="fas fa-link"></i>
+                </div>
+                <h3>Cixi Challux Technology Co.,Ltd.</h3>
+                <p>Related company</p>
+            </div>
+        </section>
+        
+        <section class="content-section">
+            <div class="languages">
+                <div class="language-card">
+                    <h2><i class="fas fa-globe-americas"></i> English</h2>
+                    <p>Limburg Technology Limited is a professional connected V16 beacon manufacturer in China, and is a related company of Cixi Challux Technology Co.,Ltd.</p>
+                    <p>Our state-of-the-art manufacturing facility produces industry-leading beacon devices that provide reliable connectivity and precise location services for a wide range of applications.</p>
+                </div>
+                
+                <div class="language-card">
+                    <h2><i class="fas fa-globe-americas"></i> Español</h2>
+                    <p>Limburg Technology Limited es un fabricante de baliza V16 conectado profesional en China, es una compañía relacionada de Cixi Challux Technology Co., Ltd.</p>
+                    <p>Nuestra planta de fabricación de última generación produce dispositivos de baliza líderes en la industria que brindan conectividad confiable y servicios de ubicación precisos para una amplia gama de aplicaciones.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <h3>Advanced Technology</h3>
+                <p>State-of-the-art beacon technology with precision engineering</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3>Quality Assurance</h3>
+                <p>Rigorous quality control for reliable performance</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <h3>Global Connectivity</h3>
+                <p>Seamless integration with IoT networks worldwide</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h3>Custom Solutions</h3>
+                <p>Tailored beacon systems for specific requirements</p>
+            </div>
+        </section>
+        
+        <section class="cta-section">
+            <h2>Learn More About Our Products</h2>
+            <p>Visit our official website for detailed specifications, product catalog, and contact information</p>
+            <a href="https://www.challux.com" class="cta-button" target="_blank">
+                Visit www.challux.com <i class="fas fa-external-link-alt"></i>
+            </a>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 Limburg Technology Limited. All rights reserved.</p>
+            <p>A related company of Cixi Challux Technology Co.,Ltd.</p>
+            <div class="footer-links">
+                <a href="https://www.challux.com">Official Website</a>
+                <a href="mailto:info@challux.com">Contact Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
